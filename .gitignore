@@ -1,0 +1,10 @@
+# Things you might find on a Mac
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Composer
+vendor
+composer.phar
+composer.lock
