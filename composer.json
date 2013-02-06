@@ -3,6 +3,7 @@
     "type": "library",
     "description": "Sifter API",
     "keywords": ["sifter"],
+    "license": "MIT",
     "require": {
         "php": ">=5.3.0"
     },
