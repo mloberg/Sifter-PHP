@@ -24,7 +24,8 @@ class Projects
     public function get($id)
     {
         $endpoint = '/api/projects/' . $id;
-        return new Project(Request::make($endpoint));
+        $project = Request::make($endpoint);
+        return new Project($project['project']);
     }
 
 }
