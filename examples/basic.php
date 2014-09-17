@@ -2,7 +2,7 @@
 
 require 'vendor/autoload.php';
 
-$host = 'http://example.sifterapp.com';
+$host = 'example.sifterapp.com';
 $token = 'abc123';
 
 $sifter = new Sifter\Sifter($host, $token);
